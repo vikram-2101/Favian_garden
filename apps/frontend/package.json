@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "cross-env NODE_OPTIONS=--no-warnings next build",
+    "build": "NODE_OPTIONS=--no-warnings next build",
     "start": "next start",
     "lint": "next lint"
   },
